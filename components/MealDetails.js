@@ -4,7 +4,7 @@ const MealDetails = ({ duration, complexity, affordability }) => {
   return (
     <View style={styles.detailsContainer}>
       <Text style={styles.details}>{duration} / minutes to make </Text>
-      <Text style={styles.details}> {complexity.toUpperCase()} </Text>
+      <Text style={styles.details}> {complexity} </Text>
       <Text style={styles.details}>{affordability}</Text>
     </View>
   );
