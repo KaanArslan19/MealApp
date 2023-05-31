@@ -2,16 +2,16 @@ import Category from "../models/category";
 import Meal from "../models/meal";
 
 export const CATEGORIES = [
-  new Category("c1", "Italian", "#f5428d"),
-  new Category("c2", "Quick & Easy", "#f54242"),
-  new Category("c3", "Hamburgers", "#f5a442"),
-  new Category("c4", "German", "#f5d142"),
-  new Category("c5", "Light & Lovely", "#368dff"),
-  new Category("c6", "Exotic", "#41d95d"),
+  new Category("c1", "Italian", "#009344"),
+  new Category("c2", "Quick & Easy", "#fffc7b"),
+  new Category("c3", "Hamburgers", "#F79327"),
+  new Category("c4", "German", "#db0c1b"),
+  new Category("c5", "Light & Lovely", "#FDCEDF"),
+  new Category("c6", "Exotic", "#DDFFBB"),
   new Category("c7", "Breakfast", "#9eecff"),
-  new Category("c8", "Asian", "#b9ffb0"),
-  new Category("c9", "French", "#ffc7ff"),
-  new Category("c10", "Summer", "#47fced"),
+  new Category("c8", "Asian", "#B799FF"),
+  new Category("c9", "French", "#362FD9"),
+  new Category("c10", "Summer", "#FFEBB4"),
 ];
 
 export const MEALS = [
@@ -126,7 +126,7 @@ export const MEALS = [
       "Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.",
       "Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.",
       "Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.",
-      "Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.",
+      "Place the schnitzels on a warmed plate and serve garnished with parsley and slices of lemon.",
     ],
     false,
     false,
@@ -156,7 +156,7 @@ export const MEALS = [
     [
       "Wash and cut salad and herbs",
       "Dice the salmon",
-      "Process mustard, vinegar and olive oil into a dessing",
+      "Process mustard, vinegar and olive oil ",
       "Prepare the salad",
       "Add salmon cubes and dressing",
     ],
